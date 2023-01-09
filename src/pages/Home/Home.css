@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "montserrat";
 }
 
 .homePage {
@@ -16,7 +17,6 @@ body {
   margin: 50px 0;
 }
 .homeBanner p {
-  font-family: "montserrat";
   position: absolute;
   color: white;
   font-size: 3.5rem;
@@ -79,7 +79,7 @@ body {
   position: absolute;
   margin: 10px;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 20%;
   display: flex;
   flex-wrap: wrap;
@@ -87,5 +87,6 @@ body {
 @media screen and (min-width: 1600px) {
   .card b {
     width: 12%;
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=Home.css.map */

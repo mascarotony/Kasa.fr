@@ -1,12 +1,22 @@
-import './About.css'
+import React from 'react'
+
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import aboutBanner from '../../assets/About_Banner.svg'
+
+import './About.css'
 
 function About() {
   return (
-    <div>
+    <div className="aboutPage">
       <Header />
-      <h1>About</h1>
+      <div className="aboutBanner">
+        <img
+          className="aboutBannerImg"
+          src={aboutBanner}
+          alt="Paysage montagneux ensoleillé"
+        />
+      </div>
       <Footer />
     </div>
   )
