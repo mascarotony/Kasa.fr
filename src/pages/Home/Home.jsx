@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import homeBanner from '../../assets/Home_Banner.svg'
+import homeBanner from '../../assets/Home_Banner.webp'
 import cardItems from '../../assets/datas/logements'
 
 import './Home.css'
