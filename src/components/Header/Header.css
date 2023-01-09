@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-self: baseline;
-  margin-top: 40px;
+  margin: 40px 0;
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%;
+  width: 1240px;
 }
 .container img {
   height: 50px;
