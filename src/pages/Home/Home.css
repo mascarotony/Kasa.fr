@@ -1,11 +1,19 @@
+body {
+  margin: 0;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .homeBanner {
   display: flex;
   justify-content: center;
-  width: 1240px;
+  width: 100%;
   height: 223px;
   margin: 50px 0;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 .homeBanner p {
   font-family: "montserrat";
@@ -28,10 +36,18 @@
   justify-content: space-evenly;
   background-color: #f6f6f6;
   width: 1240px;
-  margin-left: 5%;
-  margin-right: 5%;
   border-radius: 20px;
   padding-bottom: 45px;
+}
+@media screen and (min-width: 1600px) {
+  .cardList {
+    width: 1590px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .cardList {
+    width: 1980px;
+  }
 }
 
 .card {
@@ -50,7 +66,14 @@
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
-  filter: brightness(0.6);
+  filter: opacity(0.2);
+  box-shadow: none;
+  transition: 0.3s;
+}
+.card img:hover {
+  cursor: pointer;
+  filter: opacity(1);
+  box-shadow: 5px 5px 5px 2px #FF6060;
 }
 .card b {
   position: absolute;
@@ -60,4 +83,9 @@
   width: 20%;
   display: flex;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 1600px) {
+  .card b {
+    width: 12%;
+  }
 }/*# sourceMappingURL=Home.css.map */
