@@ -25,7 +25,7 @@ function Home() {
   )
 
   return (
-    <div>
+    <div className="homePage">
       <Header />
       <div className="homeBanner">
         <p>Chez vous, partout et ailleurs</p>
