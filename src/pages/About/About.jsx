@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import aboutBanner from '../../assets/About_Banner.svg'
+import aboutBanner from '../../assets/About_Banner.webp'
 
 import './About.css'
 
