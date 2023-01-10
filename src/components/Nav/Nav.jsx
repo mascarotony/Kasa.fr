@@ -1,6 +1,8 @@
+//Utils
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+//Style
 import './Nav.css'
 
 function Nav() {

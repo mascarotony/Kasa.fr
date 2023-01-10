@@ -7,7 +7,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Panel from '../../components/DropPanel/DropPanel'
 
-//Assets
+//Assets & Datas
 import aboutBanner from '../../assets/About_Banner.webp'
 import AboutItems from '../../assets/datas/about'
 

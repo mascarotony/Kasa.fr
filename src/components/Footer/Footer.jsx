@@ -1,8 +1,13 @@
+//Utils
 import React from 'react'
+
+//Assets
 import LogoWhite from '../../assets/White_Logo.svg'
 
+//Style
 import './Footer.css'
 
+//Function
 function Footer() {
   return (
     <div className="footer-container">
