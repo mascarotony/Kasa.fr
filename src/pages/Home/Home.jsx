@@ -1,13 +1,19 @@
+//Utils
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+//Components
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+
+//Assets & Datas
 import homeBanner from '../../assets/Home_Banner.webp'
 import cardItems from '../../assets/datas/logements'
 
+//Style
 import './Home.css'
 
+//Function
 function Home() {
   const LogementsCard = () => (
     <div className="cardList">

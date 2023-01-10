@@ -1,10 +1,14 @@
+//Utils
 import React from 'react'
 import { useState } from 'react'
 
+//Assets
 import Vector from '../../assets/Vector.svg'
 
+//Style
 import './DropPanel.css'
 
+//Function
 function DropPanel(props) {
   const [display, setDisplay] = useState('none')
   const [isActive, setIsActive] = useState('')
