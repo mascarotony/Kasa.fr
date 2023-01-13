@@ -1,58 +1,32 @@
 .carousel {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-content: center;
   position: relative;
-  width: 80%;
-  margin: 0 10%;
-}
-@media screen and (min-width: 1600px) {
-  .carousel {
-    width: 90%;
-    margin: 0 5%;
-  }
 }
 .carousel img {
   border-radius: 25px;
 }
 
 .nextVector {
+  height: 30px;
+  width: 30px;
   position: absolute;
+  rotate: -90deg;
+  cursor: pointer;
   top: 50%;
   right: 0;
-  rotate: -90deg;
-  padding: 0;
-  cursor: pointer;
-}
-@media screen and (min-width: 1600px) {
-  .nextVector {
-    right: 15%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  .nextVector {
-    right: 25%;
-  }
+  padding: 0 0;
 }
 
 .prevVector {
+  height: 30px;
+  width: 30px;
   position: absolute;
-  top: 50%;
-  left: 0;
   rotate: 90deg;
-  padding: 0;
   cursor: pointer;
-}
-@media screen and (min-width: 1600px) {
-  .prevVector {
-    left: 15%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  .prevVector {
-    left: 25%;
-  }
+  top: 50%;
+  padding: 0 0;
 }
 
 .carouselNumber {
