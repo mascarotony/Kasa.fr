@@ -40,35 +40,39 @@ function Logement() {
   return (
     <div className="logementPage">
       <Header />
-      <Carousel pictures={item.pictures}></Carousel>
-      <div className="content">
-        <div className="leftBloc">
-          <div className="location">
-            <b>{item.title}</b>
-            <p>{item.location}</p>
+      <div className="logementBloc">
+        <div className="carouselBloc">
+          <Carousel pictures={item.pictures}></Carousel>
+        </div>
+        <div className="content">
+          <div className="leftBloc">
+            <div className="location">
+              <b>{item.title}</b>
+              <p>{item.location}</p>
+            </div>
+            <div className="tags">
+              <ul>
+                {item.tags.map((tag) => (
+                  <li key={tag}>{tag}</li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className="tags">
-            <ul>
-              {item.tags.map((tag) => (
-                <li key={tag}>{tag}</li>
-              ))}
-            </ul>
+
+          <div className="rigthBloc">
+            <div className="LvlRating"></div>
+
+            <div className="host">
+              <p>{item.host.name}</p>
+              <img src={item.host.picture} alt="host" />
+            </div>
           </div>
         </div>
 
-        <div className="rigthBloc">
-          <div className="LvlRating"></div>
-
-          <div className="host">
-            <p>{item.host.name}</p>
-            <img src={item.host.picture} alt="host" />
-          </div>
+        <div className="descriptionBloc">
+          <DropPanel texte={item.description} title="Déscription" />
+          <DropPanel texte={listEquipments} title="Équipements" />
         </div>
-      </div>
-
-      <div className="descriptionBloc">
-        <DropPanel texte={item.description} title="Déscription" />
-        <DropPanel texte={listEquipments} title="Équipements" />
       </div>
       <Footer />
     </div>

@@ -1,1 +1,86 @@
-/*# sourceMappingURL=Logement.css.map */
+.logementBloc {
+  width: 85%;
+  margin: 0 7.5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.content p {
+  font-size: 1.2rem;
+  color: #FF6060;
+}
+.content b {
+  font-size: 2.5rem;
+  color: #FF6060;
+  background-color: white;
+}
+.content .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+
+.rightBloc {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.host {
+  display: flex;
+}
+.host img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.host p {
+  width: 80px;
+  color: #FF6060;
+  text-align: -webkit-right;
+  margin-right: 10px;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tags ul {
+  gap: 15px;
+}
+.tags li {
+  justify-content: flex-start;
+  color: white;
+  background-color: #FF6060;
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.descriptionBloc {
+  display: flex;
+  margin: 10px;
+}
+.descriptionBloc div {
+  margin: 0 5px;
+  flex: 1 1 0px;
+}
+.descriptionBloc .text {
+  padding-top: 40px;
+}
+
+.text li {
+  list-style: none;
+}/*# sourceMappingURL=Logement.css.map */
