@@ -8,6 +8,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Carousel from '../../components/Carousel/Carousel'
 import DropPanel from '../../components/DropPanel/DropPanel'
+import RatingStar from '../../components/RatingStar/RatingStar'
 
 //Page
 import Error from '../Error/Error'
@@ -59,8 +60,10 @@ function Logement() {
             </div>
           </div>
 
-          <div className="rigthBloc">
-            <div className="LvlRating"></div>
+          <div className="rightBloc">
+            <div className="ratingBloc">
+              <RatingStar rating={item.rating} />
+            </div>
 
             <div className="host">
               <p>{item.host.name}</p>
