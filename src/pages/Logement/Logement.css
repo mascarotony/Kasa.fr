@@ -62,6 +62,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
+@media screen and (max-width: 600px) {
+  .starBloc img {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 .host {
   display: flex;
