@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Kasa.fr/static/css/main.0656f322.css",
-    "main.js": "/Kasa.fr/static/js/main.3ec2566b.js",
+    "main.css": "/Kasa.fr/static/css/main.43214612.css",
+    "main.js": "/Kasa.fr/static/js/main.3602983c.js",
     "static/media/About_Banner.webp": "/Kasa.fr/static/media/About_Banner.811d87100806ec31f022.webp",
     "static/media/Home_Banner.webp": "/Kasa.fr/static/media/Home_Banner.faab8940f098fe6e5623.webp",
     "static/media/Logo.svg": "/Kasa.fr/static/media/Logo.a6101328193bb3191cbcb50c120ec0d1.svg",
     "static/media/White_Logo.svg": "/Kasa.fr/static/media/White_Logo.ee689fd9409d1b5a898b4247819d8a00.svg",
     "index.html": "/Kasa.fr/index.html",
     "static/media/Vector.svg": "/Kasa.fr/static/media/Vector.b052dd29e3a2bab76700eee79e133c37.svg",
-    "main.0656f322.css.map": "/Kasa.fr/static/css/main.0656f322.css.map",
-    "main.3ec2566b.js.map": "/Kasa.fr/static/js/main.3ec2566b.js.map"
+    "main.43214612.css.map": "/Kasa.fr/static/css/main.43214612.css.map",
+    "main.3602983c.js.map": "/Kasa.fr/static/js/main.3602983c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0656f322.css",
-    "static/js/main.3ec2566b.js"
+    "static/css/main.43214612.css",
+    "static/js/main.3602983c.js"
   ]
 }
