@@ -13,6 +13,11 @@ h1 {
           margin-block-start: 0px;
   font-size: 1.8rem;
 }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
 @media screen and (min-width: 1600px) {
   h1 {
     font-size: 2rem;
@@ -27,6 +32,13 @@ h1 {
 .dropPanel {
   width: 100%;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  .dropPanel {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 90%;
+  }
 }
 
 .dropPanel-Block {

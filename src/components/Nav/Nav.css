@@ -7,6 +7,11 @@ ul {
   margin: 0;
   gap: 40px;
 }
+@media screen and (max-width: 600px) {
+  ul {
+    gap: 0;
+  }
+}
 
 nav li {
   margin: 10px;
@@ -27,4 +32,9 @@ nav li {
 
 a {
   text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=Nav.css.map */
