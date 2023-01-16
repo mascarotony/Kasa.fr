@@ -12,7 +12,7 @@ function Nav() {
         <ul>
           <li>
             <NavLink
-              to="/"
+              to="/Kasa.fr"
               className={({ isActive }) => (isActive ? 'activated' : 'link')}
               end
             >

@@ -12,7 +12,7 @@ import Error from './pages/Error/Error'
 //Router
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Kasa.fr',
     element: <Home />,
   },
   {
