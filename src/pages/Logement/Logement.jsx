@@ -73,7 +73,7 @@ function Logement() {
         </div>
 
         <div className="descriptionBloc">
-          <DropPanel texte={item.description} title="Déscription" />
+          <DropPanel texte={item.description} title="Description" />
           <DropPanel texte={listEquipments} title="Équipements" />
         </div>
       </div>

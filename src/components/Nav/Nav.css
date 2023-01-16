@@ -18,6 +18,11 @@ nav li {
   font-size: 0.8rem;
   font-size: 25px;
 }
+@media screen and (max-width: 600px) {
+  nav li {
+    margin: 5px;
+  }
+}
 
 .link {
   text-decoration: none;
@@ -35,6 +40,6 @@ a {
 }
 @media screen and (max-width: 600px) {
   a {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=Nav.css.map */
