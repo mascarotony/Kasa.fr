@@ -16,8 +16,20 @@ body {
   height: 223px;
   margin: 50px 0;
 }
+@media screen and (max-width: 600px) {
+  .aboutBanner {
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+  }
+}
 
 .aboutBannerImg {
   border-radius: 20px;
   filter: brightness(0.7);
+}
+@media screen and (max-width: 600px) {
+  .aboutBannerImg {
+    width: 100%;
+  }
 }/*# sourceMappingURL=About.css.map */

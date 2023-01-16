@@ -16,6 +16,13 @@ body {
   height: 223px;
   margin: 50px 0;
 }
+@media screen and (max-width: 600px) {
+  .homeBanner {
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+  }
+}
 .homeBanner p {
   position: absolute;
   color: white;
@@ -23,10 +30,25 @@ body {
   z-index: 6;
   translate: 0 20px;
 }
+@media screen and (max-width: 600px) {
+  .homeBanner p {
+    width: 62%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    translate: 0 0px;
+    top: 150px;
+    left: 10%;
+  }
+}
 
 .homeBannerImg {
   border-radius: 20px;
   filter: brightness(0.7);
+}
+@media screen and (max-width: 600px) {
+  .homeBannerImg {
+    width: 100%;
+  }
 }
 
 .cardList {
@@ -40,6 +62,15 @@ body {
   margin-bottom: 20px;
   padding: 45px 0;
   gap: 60px;
+}
+@media screen and (max-width: 600px) {
+  .cardList {
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px 0;
+    gap: 20px;
+  }
 }
 @media screen and (min-width: 1600px) {
   .cardList {
@@ -62,6 +93,11 @@ body {
   border-radius: 20px;
   background-color: #FF6060;
   background: linear-gradient(180deg, #FF6060 35%, #000000 120%);
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 2000px) {
   .card {
@@ -92,6 +128,11 @@ body {
   width: 20%;
   display: flex;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+  .card b {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 1600px) {
   .card b {

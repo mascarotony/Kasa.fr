@@ -8,6 +8,11 @@
   height: 415px;
   border-radius: 25px;
 }
+@media screen and (max-width: 600px) {
+  .carousel {
+    height: 250px;
+  }
+}
 @media screen and (min-width: 1600px) {
   .carousel {
     height: 500px;
@@ -17,6 +22,12 @@
 .carouselImage {
   height: 100%;
   width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .carouselImage {
+    width: 150%;
+    height: 150%;
+  }
 }
 
 .nextVector {
@@ -32,6 +43,11 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .nextVector {
+    height: 250px;
+  }
+}
 @media screen and (min-width: 1600px) {
   .nextVector {
     height: 500px;
@@ -41,10 +57,18 @@
   height: 100px;
   width: 100px;
   opacity: 0.6;
+  filter: drop-shadow(-5px 0px 3px #FF6060);
+}
+@media screen and (max-width: 600px) {
+  .nextVector img {
+    width: 30px;
+    height: 30px;
+  }
 }
 .nextVector img:hover {
   transform: scale(1.2);
   opacity: 1;
+  filter: drop-shadow(-15px 0px 8px #FF6060);
 }
 
 .prevVector {
@@ -60,6 +84,11 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .prevVector {
+    height: 250px;
+  }
+}
 @media screen and (min-width: 1600px) {
   .prevVector {
     height: 500px;
@@ -69,10 +98,18 @@
   height: 100px;
   width: 100px;
   opacity: 0.8;
+  filter: drop-shadow(5px 0px 3px #FF6060);
+}
+@media screen and (max-width: 600px) {
+  .prevVector img {
+    width: 30px;
+    height: 30px;
+  }
 }
 .prevVector img:hover {
   transform: scale(1.2);
   opacity: 1;
+  filter: drop-shadow(15px 0px 8px #FF6060);
 }
 
 .carouselNumber {

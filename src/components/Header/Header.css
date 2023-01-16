@@ -10,4 +10,10 @@
 .container img {
   height: 50px;
   width: 180px;
+}
+@media screen and (min-width: 425px) {
+  .container img {
+    height: 50px;
+    width: 150px;
+  }
 }/*# sourceMappingURL=Header.css.map */
