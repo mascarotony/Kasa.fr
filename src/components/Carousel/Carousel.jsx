@@ -27,12 +27,17 @@ function Carousel() {
 
   return (
     <div className="carousel">
-      <button className="prevVector">
-        <img src={Vector} onClick={prevSlide} alt="Fleche vers la gauche" />
-      </button>
-      <button className="nextVector">
-        <img src={Vector} onClick={nextSlide} alt="Fleche vers la droite" />
-      </button>
+      {pictures.length > 1 ? (
+        <>
+          <button className="prevVector">
+            <img src={Vector} onClick={prevSlide} alt="Fleche vers la gauche" />
+          </button>
+          <button className="nextVector">
+            <img src={Vector} onClick={nextSlide} alt="Fleche vers la droite" />
+          </button>
+        </>
+      ) : null}
+
       {pictures.map((img, index) => {
         return (
           <div key={index}>
