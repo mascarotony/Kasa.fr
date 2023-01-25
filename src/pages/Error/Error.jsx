@@ -16,7 +16,7 @@ function Error() {
       <div className="errorBloc">
         <strong>404</strong>
         <p>Oups! La page que vous demandez nexiste pas.</p>
-        <Link to="/">Retourner à la page d'accueil</Link>
+        <Link to="/Kasa.fr">Retourner à la page d'accueil</Link>
       </div>
     </div>
   )
